@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import Header from '@/components/Header';
@@ -11,50 +10,50 @@ const DiningRoom = () => {
   const diningFurniture = [
     {
       id: 'dining-1',
-      name: '6-Seater Dining Set',
-      price: 75000,
+      name: '4-Seater Dining Set',
+      price: 22000,
       image: 'https://images.unsplash.com/photo-1617806118233-18e1de247200?w=400&h=300&fit=crop',
-      description: 'Elegant 6-seater dining table with matching chairs',
+      description: 'Elegant 4-seater dining table with matching chairs',
       category: 'dining-room'
     },
     {
       id: 'dining-2',
-      name: '4-Seater Round Table',
-      price: 55000,
+      name: '6-Seater Dining Set',
+      price: 28000,
       image: 'https://images.unsplash.com/photo-1549497538-303791108f95?w=400&h=300&fit=crop',
-      description: 'Compact round dining table perfect for small families',
+      description: 'Family-size 6-seater dining set with cushioned chairs',
       category: 'dining-room'
     },
     {
       id: 'dining-3',
-      name: '8-Seater Executive Set',
-      price: 120000,
+      name: 'Round 4-Seater Table',
+      price: 18000,
       image: 'https://images.unsplash.com/photo-1581539250439-c96689b516dd?w=400&h=300&fit=crop',
-      description: 'Large executive dining set for entertaining guests',
+      description: 'Compact round dining table for small families',
       category: 'dining-room'
     },
     {
       id: 'dining-4',
-      name: 'Bar Counter Set',
-      price: 45000,
+      name: '8-Seater Dining Set',
+      price: 42000,
       image: 'https://images.unsplash.com/photo-1562184552-c20c20202b9a?w=400&h=300&fit=crop',
-      description: 'Modern bar counter with high stools',
+      description: 'Large dining set for entertaining guests',
       category: 'dining-room'
     },
     {
       id: 'dining-5',
       name: 'Glass Top Dining Table',
-      price: 85000,
+      price: 25000,
       image: 'https://images.unsplash.com/photo-1549497538-303791108f95?w=400&h=300&fit=crop',
-      description: 'Sophisticated glass top table with metal base',
+      description: 'Modern glass top table with 4 chairs',
       category: 'dining-room'
     },
     {
       id: 'dining-6',
-      name: 'Wooden Buffet Cabinet',
-      price: 65000,
+      name: 'Wooden Dining Cabinet',
+      price: 15000,
       image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop',
-      description: 'Spacious buffet cabinet for dining room storage',
+      description: 'Dining room storage cabinet with shelves',
       category: 'dining-room'
     }
   ];

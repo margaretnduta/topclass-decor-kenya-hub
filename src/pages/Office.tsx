@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import Header from '@/components/Header';
@@ -11,50 +10,50 @@ const Office = () => {
   const officeFurniture = [
     {
       id: 'office-1',
-      name: 'Executive Office Desk',
-      price: 65000,
+      name: 'Office Desk',
+      price: 18000,
       image: 'https://images.unsplash.com/photo-1541558869434-2840d308329a?w=400&h=300&fit=crop',
-      description: 'Large executive desk with built-in storage',
+      description: 'Computer desk with drawers and storage space',
       category: 'office'
     },
     {
       id: 'office-2',
-      name: 'Ergonomic Office Chair',
-      price: 35000,
+      name: 'Office Chair',
+      price: 12000,
       image: 'https://images.unsplash.com/photo-1592078615290-033ee584e267?w=400&h=300&fit=crop',
-      description: 'Comfortable ergonomic chair with lumbar support',
+      description: 'Comfortable office chair with back support',
       category: 'office'
     },
     {
       id: 'office-3',
-      name: 'Conference Table Set',
-      price: 95000,
+      name: 'Meeting Table Set',
+      price: 35000,
       image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&h=300&fit=crop',
-      description: '8-seater conference table with matching chairs',
+      description: '6-seater meeting table with chairs',
       category: 'office'
     },
     {
       id: 'office-4',
-      name: 'Office Filing Cabinet',
-      price: 25000,
+      name: 'Filing Cabinet',
+      price: 8000,
       image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop',
-      description: '4-drawer filing cabinet with lock system',
+      description: '3-drawer filing cabinet with lock',
       category: 'office'
     },
     {
       id: 'office-5',
       name: 'Reception Desk',
-      price: 55000,
+      price: 25000,
       image: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=400&h=300&fit=crop',
-      description: 'Modern reception desk with storage space',
+      description: 'Modern reception desk for office entrance',
       category: 'office'
     },
     {
       id: 'office-6',
       name: 'Office Bookshelf',
-      price: 45000,
+      price: 12000,
       image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&h=300&fit=crop',
-      description: '5-tier office bookshelf for storage and display',
+      description: '4-tier bookshelf for office storage',
       category: 'office'
     }
   ];

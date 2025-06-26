@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import Header from '@/components/Header';
@@ -11,48 +10,48 @@ const Bedroom = () => {
   const bedroomFurniture = [
     {
       id: 'bedroom-1',
-      name: 'King Size Bed Set',
-      price: 95000,
+      name: 'Double Bed with Mattress',
+      price: 28000,
       image: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400&h=300&fit=crop',
-      description: 'Complete king size bed with headboard and side tables',
+      description: 'Complete double bed set with quality mattress',
       category: 'bedroom'
     },
     {
       id: 'bedroom-2',
       name: 'Queen Size Bed Frame',
-      price: 75000,
+      price: 22000,
       image: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400&h=300&fit=crop',
-      description: 'Elegant queen size bed frame with upholstered headboard',
+      description: 'Elegant queen size bed frame with headboard',
       category: 'bedroom'
     },
     {
       id: 'bedroom-3',
-      name: '6-Door Wardrobe',
-      price: 85000,
+      name: '4-Door Wardrobe',
+      price: 24000,
       image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop',
-      description: 'Spacious 6-door wardrobe with mirror and drawers',
+      description: 'Spacious 4-door wardrobe with mirror and drawers',
       category: 'bedroom'
     },
     {
       id: 'bedroom-4',
-      name: 'Bedside Tables Pair',
-      price: 25000,
+      name: 'Bedside Tables Set',
+      price: 8000,
       image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&h=300&fit=crop',
-      description: 'Matching pair of bedside tables with storage',
+      description: 'Pair of matching bedside tables with storage',
       category: 'bedroom'
     },
     {
       id: 'bedroom-5',
-      name: 'Dresser with Mirror',
-      price: 55000,
+      name: 'Dressing Table',
+      price: 15000,
       image: 'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=400&h=300&fit=crop',
-      description: 'Beautiful dresser with large mirror and drawers',
+      description: 'Dressing table with mirror and storage drawers',
       category: 'bedroom'
     },
     {
       id: 'bedroom-6',
-      name: 'Complete Bedroom Suite',
-      price: 180000,
+      name: 'Complete Bedroom Set',
+      price: 65000,
       image: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400&h=300&fit=crop',
       description: 'Complete bedroom set: bed, wardrobe, dresser, and tables',
       category: 'bedroom'

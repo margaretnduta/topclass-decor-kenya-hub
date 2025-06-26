@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -12,50 +11,50 @@ const Sofas = () => {
   const sofas = [
     {
       id: 'sofa-1',
-      name: 'Premium 3-Seater Sofa',
-      price: 85000,
-      image: 'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=400&h=300&fit=crop',
-      description: 'Luxurious 3-seater sofa with premium fabric upholstery',
+      name: '3-Seater Fabric Sofa',
+      price: 25000,
+      image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&h=300&fit=crop',
+      description: 'Comfortable 3-seater sofa with durable fabric upholstery',
       category: 'sofas'
     },
     {
       id: 'sofa-2',
       name: 'L-Shape Corner Sofa',
-      price: 120000,
-      image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&h=300&fit=crop',
-      description: 'Spacious L-shaped sofa perfect for large living rooms',
+      price: 35000,
+      image: 'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=400&h=300&fit=crop',
+      description: 'Spacious L-shaped sofa perfect for family gatherings',
       category: 'sofas'
     },
     {
       id: 'sofa-3',
-      name: 'Leather Recliner Sofa',
-      price: 95000,
+      name: '2-Seater Loveseat',
+      price: 18000,
       image: 'https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=400&h=300&fit=crop',
-      description: 'Comfortable leather recliner with adjustable positions',
+      description: 'Compact 2-seater perfect for small living rooms',
       category: 'sofas'
     },
     {
       id: 'sofa-4',
-      name: 'Modern 2-Seater Loveseat',
-      price: 65000,
-      image: 'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=400&h=300&fit=crop',
-      description: 'Compact and stylish 2-seater perfect for small spaces',
+      name: '7-Seater Sofa Set',
+      price: 45000,
+      image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop',
+      description: 'Complete 7-seater sofa set with center table',
       category: 'sofas'
     },
     {
       id: 'sofa-5',
-      name: 'Sectional Sofa Set',
-      price: 150000,
-      image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop',
-      description: 'Complete sectional sofa set with ottoman',
+      name: 'Leather Sofa 3-Seater',
+      price: 32000,
+      image: 'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=400&h=300&fit=crop',
+      description: 'Elegant leather 3-seater sofa for modern homes',
       category: 'sofas'
     },
     {
       id: 'sofa-6',
-      name: 'Chesterfield Classic',
-      price: 110000,
-      image: 'https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=400&h=300&fit=crop',
-      description: 'Classic Chesterfield design with button tufting',
+      name: '5-Seater Sofa Set',
+      price: 38000,
+      image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&h=300&fit=crop',
+      description: '5-seater sofa set with matching cushions',
       category: 'sofas'
     }
   ];
